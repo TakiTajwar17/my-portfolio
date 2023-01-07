@@ -12,7 +12,7 @@ html{
     font-size: 45px;
 }
 .text-primary{
-    color: #FD6E0A;
+    color: #474747;
 }
 nav{
     display: flex;
@@ -33,7 +33,7 @@ nav ul{
 }
 .btn{
     height: 40px;
-    background-color: #FD6E0A;
+    background-color: #474747;
     color: #FFFFFF;
     border-radius: 5px ;
     border:none;
@@ -72,9 +72,9 @@ color:#474747;
 #contact{
     height: 40px;
     background-color:#FFFFFF ;
-    color:  #FD6E0A;
+    color:  #474747;
     border-radius: 5px ;
-    border:#FD6E0A 1px solid;
+    border:#474747 1px solid;
     height: 40px;
     font-weight: 700;
     padding: 0 36px;
@@ -85,13 +85,14 @@ color:#474747;
     position: relative;
     left: 0px;
     top: 0px;
-    background: #FFF8F3;
+    background: #e3e2e2;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, 65px;
     background-size: 45% ,65px;
     margin-bottom: 0;
     margin-right: 0;
+    box-shadow: 0px .1px 50px rgba(0, 0, 0, 2.06);
  
 }
 
@@ -197,8 +198,79 @@ main{
     margin-bottom: 100px;
     border-radius: 10px;
     padding: 100px;
+}
+.full-resume{
+    display: flex;
+    gap:20px;
+}
+.segment{
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 5.06);
     border-radius: 5px;
     padding: 20px;
+    height: 200px;
+    width: 300px;
+    margin:20px 20px 20px 0;
+    font-size: 13px;
+    color: #474747;
+
+}
+
+.ins{
+    font-weight: 600;
+    font-size: 12px;
+    margin: 10px 10px 10px 0px;
+}
+.resume-button{
+  text-align: center;
+  margin-top: 35px;
+}
+
+/* contact styles */
+footer{
+  
+    background: #e3e2e2;
+   
+    position: relative;
+    left: 0px;
+    top: 0px;
+    
+    margin-bottom: 0;
+    margin-right: 0;
+    box-shadow: 0px .1px 50px rgba(0, 0, 0, 2.06);
+}
+.contact{
+   padding: 50px 100px 50px 100px;
+    display: flex;
+    gap:100px;
+}
+.contact .section-title{
+    font-size: 25px; 
+    text-align: left;
+}
+.images{
+display:flex;
+   gap: 10px;
+   margin-bottom: 20px;
+}
+.iconz{
+    height: 35px;
+}
+.contact-connect
+{
+    margin-left: 100px;
+    
+}
+.contact-message
+{
+    margin-right: 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+#formid, #formemail, textarea{
+    border: 0;
 }
