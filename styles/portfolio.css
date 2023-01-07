@@ -17,7 +17,7 @@ html{
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 0 200px 50px 200px;
+    margin: 0 100px 50px 200px;
 }
 nav li{
     list-style: none;
@@ -44,7 +44,7 @@ nav ul{
 }
 
 .banner{
-    margin: 0 0px 20px 200px;
+    margin: 20px 0px 20px 200px;
     display: flex;
     align-items: center;
 }
@@ -88,9 +88,10 @@ color:#474747;
     background: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right, 80px;
+    background-position: bottom right, 65px;
     background-size: 45% ,65px;
     margin-bottom: 0;
+    margin-right: 0;
  
 }
 
@@ -104,11 +105,16 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
-
+.mypic
+{
+   margin-right: 0;
+    margin-left: 20px;
+    margin-top: 0px;
+}
 
 /* about section */
 .about{
-    margin-top: 130px;
+    margin-top: 100px;
     background-color: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -117,4 +123,27 @@ main{
 .section-title{
 
     text-align: center;
+    margin-bottom:30px ;
+    font-weight: 700;
+    font-size: 35px;
+}
+.section-description{
+    color: #474747;
+    font-size: 18px;
+}
+.about-info-container{
+    display: flex;
+    margin-top: 30px;
+    font-size: 15px;
+    justify-content: space-around;
+    
+}
+.text-info{
+    color: #474747;
+    font-weight: 700;   
+}
+.text-title{
+    font-size: 15px;
+    color: #757575;
+    justify-content: space-between;
 }
